@@ -1,0 +1,185 @@
+/*---------Підключення шрифтів------*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+body{
+	font-family: "Lato",serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:#424551;
+	line-height: 160%;
+}
+/*---------------header------------------*/
+.header {
+	min-height: 92px;
+	padding-top: 20px;
+	margin-bottom: 98px;
+
+}
+.header__container{
+	display: flex;
+	}
+.header__logo {
+}
+.header__menu {
+	flex: 1 1 auto;
+}
+.menu {
+margin-left: 60px;
+}
+.menu__body {
+
+}
+.menu__list {
+	display: flex;
+	font-weight: 700;
+	font-size: 16px;
+	
+	color:#424551;
+}
+.active{
+	color:red;
+}
+.menu__item {
+	margin-right: 40px;
+}
+.menu__link {
+	line-height: 160%;
+}
+.header__button {
+}
+.button {
+	display:flex ;
+	min-height: 52px;
+	min-width: 206px;
+	background-image: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 52px;
+	color:white;
+}
+/*---------------main------------------*/
+.main__header{
+	font-weight: 900;
+	line-height: 130%;
+	color:#1E212C;
+	font-size: 46px;
+	margin-bottom: 92px;
+}
+.main__image{
+	text-align: center;
+	margin-bottom: 60px;
+	width: 100%;
+}
+img{
+	max-width: 100%;
+	}
+.main__text {
+	
+	}
+	.bold__text {
+	font-weight: 700;
+	font-size: 20px;
+	color:#1E212C;
+	margin-bottom: 24px;
+	}
+	.regular__text p {
+		margin-bottom: 25px;
+	}
+	.blockquote__text{
+		background-image: url(../img/braces.svg);
+		background-repeat: no-repeat;
+		padding-left: 58px;
+		font-weight: 700;
+		font-size: 20px;
+		color:#1E212C;
+		margin-bottom: 48px;
+		
+	}
+	.text__list {
+		margin-bottom: 24px;
+	}
+	.text__link {
+		background-image: url("../img/Vector.svg");
+		background-repeat: no-repeat;
+		padding-left: 32px;
+		margin-bottom: 4px;
+	}
+	
+	
+/* ------------------footer------------ */
+.footer{
+	margin-bottom: 100px;
+}
+.footer__container {
+	display: flex;
+	
+	}
+.footer__tag {
+	display: flex;
+	margin-right: 296px;
+}
+.tag__title {
+	font-weight: 700;
+	line-height: 160%;
+	color: #1E212C;
+	margin-right: 12px;
+}
+.tag__iist {
+	display: flex;
+	color:#787A80;
+	font-weight: 700;
+		}
+.tag__link {
+	border: 1px solid #787A80;
+	padding:5.5px 16px;
+	margin-right: 12px;
+}
+
+.footer__social {
+	display: flex;
+	
+}
+.social__title {
+	font-weight: 700;
+	line-height: 160%;
+	color: #1E212C;
+	margin-right: 12px;
+}
+.social__img img {
+	margin-right: 12px;
+}
+/* ----------------background------------------ */
+.block{
+
+	background-color: #787A80;
+}
+.block{
+	padding: 15px;
+	height: auto;
+	margin-bottom: 100px;
+	background-image:url("../img/depositphotos_3380237-stock-photo-gold-wheat-and-blue-sky.jpg") ;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: scroll;
+	background-size:80%;
+}
+.block__one{
+	/* background-color: #FF3F3A; */
+	background:url("../img/depositphotos_3380237-stock-photo-gold-wheat-and-blue-sky.jpg") no-repeat right 0 / 200px , url("../img/400_0_1656498354-6918.jpg") no-repeat 0 0 / 600px, url("../img/Serze.jpg") no-repeat center/ 500px,#ff403a6c; 
+	margin-bottom: 100px;
+
+}
+.block__two{
+	background:url("../img/Serze.jpg") no-repeat 40px 40px / 200px,url("../img/400_0_1656498364-2927.jpg") no-repeat 0 0 / cover;
+	/* background-size: contain; */
+	/* background-size: cover; */
+	margin-bottom: 100px;
+}
+background: url('@img') 0 0 no-repeat;
